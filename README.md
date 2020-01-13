@@ -1,7 +1,7 @@
 # serverless-microservices
 
 Serverless Micro service(s) architecture overview:
-AWS API Gateway --> AWS Lambda ----> AWS Dynamo DB
+AWS API Gateway <--> AWS Lambda <--> AWS Dynamo DB
 
 This project includes the following files and folders:
 
