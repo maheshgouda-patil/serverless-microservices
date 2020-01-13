@@ -12,8 +12,8 @@ This project includes the following files and folders:
 - buildspec.yml -  A build specification file that tells AWS CodeBuild how to create a deployment package for the function.
 
 Automated CI / CD set up and process setps:
-● Code repository would be either AWS codeCommit or GitHub 
-● AWS CodeBuild builds code automatically when code check in happens 
-● Verify automatic test codes and release artifacts into S3 bucket
+● Code repository would be either AWS codeCommit or GitHub.
+● AWS CodeBuild builds code automatically when code check in happens.
+● Verify automatic test codes and release artifacts into S3 bucket.
 ● AWS CodeDeploy geenrates GenerateChangeSet and executes ExecuteChangeSet steps.
 ● AWS CodePipeline use to automate the CI/CD process from repositories changes trigger, build, and deployment without any manual intervention.
